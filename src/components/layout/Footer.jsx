@@ -8,7 +8,7 @@ const Footer = () => {
                 <span
                     className='_blue drop-shadow-md select-none'
                 >
-                    &copy; 2023 - Final Task Dicoding - by Amir Kholiluddin Ismail
+                    &copy; 2023 - by Amir Kholiluddin Ismail
                 </span >
             </div >
         </footer>
