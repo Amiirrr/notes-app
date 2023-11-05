@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", system-ui, sans-serif;
+  }
+
+  footer {
+    box-shadow: 0 2px 10px rgba(60, 64, 67, 0.3), 0px 0px 0px 0px rgba(60, 64, 67, 0.15) !important;
+    z-index: 8 !important;
+  }
+
+  main {
+    background-color: #EAF8ff;
+    padding: 10px 0px 10px 0px;
+  }
+
+  ._blue {
+    color: #163D5D;
+  }
+
+  ._grey {
+    color: #ccd3d6;
+  }
+
+  ._green {
+    color: #00C5C1;
+  }
+
+  .light-blue {
+    color: #EAF8ff;
+  }
+
+  ._bg-blue {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+  }
+
+  ._bg-grey {
+    background-color: #ccd3d6;
+  }
+
+  ._bg-green {
+    background-color: #00C5C1;
+  }
+
+  ._bg-dark-green {
+    background-color: #028582;
+  }
+
+  .bg-light-blue {
+    background-color: #EAF8ff;
+  }
+
+  ._btn-active {
+    background-color: #00C5C1 !important;
+    color: white !important;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+
+
+}
